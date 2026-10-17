@@ -1,0 +1,10 @@
+[project]
+name = "member"
+version = "0.1.0"
+requires-python = ">=3.10"
+# indirect for the root project, but direct for this workspace member
+dependencies = ["markupsafe"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
